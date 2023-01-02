@@ -1,1 +1,2 @@
-Google arayüz(temel)
+        #Patika
+Google Ana Sayfasını Tasarlamak(Temel)
