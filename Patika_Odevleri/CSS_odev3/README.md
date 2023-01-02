@@ -1,2 +1,2 @@
 
-Goggle Arayüz(biraz daha geliştirilmiş)
+Google Ana Sayfasını Tasarlamak(biraz daha geliştirilmiş)
