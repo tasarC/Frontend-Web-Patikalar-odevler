@@ -1,0 +1,94 @@
+*body{
+  list-style-position: inside;
+}
+.ul {
+border-style:inset ;
+list-style-type: none; /*liste nesnelerinin önündeki . simgesini kaldırır*/
+background-color: rgb(190, 50, 50); /*liste arkaplanına renk verir*/
+height: 40px; /*liste yükseklik değerini ayarlar*/
+   }
+
+.li{
+list-style-type: none;
+float:left; /*liste nesnelerini yanyana sıralar*/
+height: 40px; /*liste nesnesi yükseklik değerini ayarlar*/
+}
+
+.li:hover{
+background-color: rgb(102, 200, 190); /*üzerine gelinen liste nesnesinin alacağı arkaplan rengini ayarlar*/
+border-radius: 10px;
+}
+
+.li a{
+display: block; /*linkin görüntülenme ayarı*/
+padding:10px; /*link ile liste arasındaki mesafe*/
+text-align: center; /*link yazısını ortalı yapar*/
+text-decoration: none; /*link yazısındaki standart altıçizili özelliği iptal eder*/
+font-weight: bold; /*link yazısını kalın yapar*/
+color:#000; /*link yazı rengini siyah yapar*/
+     }
+
+.li a:hover{
+color:#fff; /*üreine gelindiğinde link yazısının alacağı renk*/
+}
+
+.img{
+    width: 100%;
+    height: 180px;
+}
+
+.resim{
+  list-style-type: none; 
+  float: center;
+  
+}
+.p{
+  color: rgb(13, 1, 1);
+  padding-left: 5%;
+ 
+}
+.p1{
+  font-size: 20px;
+}
+.table{
+  padding-left: 15%;
+}
+.th {
+  border: 5px solid   rgb(190, 50, 50); 
+  border-radius: 20px;
+  margin: 40px;
+  float:left;
+}
+.list{
+  position: relative;
+  list-style-type: none;
+  border-style: double;
+  border-color: burlywood;
+  width: 240px;
+  margin: 10px;
+  margin-inline: 39%}
+  .img1{
+    width: 200px;
+  }
+  .buton{
+    margin-top: 5px;
+    background-color:rgb(254, 186, 186);
+    border-radius: 10px;
+    display: inline;
+    list-style-position: inside;
+  }
+  .buton:hover{
+    
+    background-color: rgb(218, 232, 219);
+    
+  }
+  .listt{
+    position: relative;
+    list-style-type: none;
+    border-color: burlywood;
+    width: 240px;
+    margin: 10px;
+    margin-inline: 39%}
+.h2{
+  margin-left: 30%;
+}
