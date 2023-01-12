@@ -1,3 +1,4 @@
+![Binary Search Tree Visualization — Mozilla Firefox 12 01 2023 21_37_01 (2)](https://user-images.githubusercontent.com/81915186/212164448-21c2047b-d9bf-4a89-bf68-435a30196cdc.png)
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 root=7 olsun
