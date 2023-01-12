@@ -14,7 +14,6 @@ root=7 olsun
 4<7 && 4<5 && 4>1 && 4>3   olduğundan root'un solunda 4 bulunur.
 2<7 && 2<5 && 2>1 && 2<3   olduğundan root'un solunda 2 bulunur.  
 
-
              7
           /   \     
          5      8   
