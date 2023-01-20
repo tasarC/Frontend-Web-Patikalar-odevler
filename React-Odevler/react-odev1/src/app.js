@@ -1,6 +1,6 @@
-import odev from "./index.js";
+import getData from "./index.js";
 
-console.log(await odev(1))
+console.log(await getData(1))
 
 
 
