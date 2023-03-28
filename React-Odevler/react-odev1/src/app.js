@@ -1,7 +1,3 @@
 import getData from "./index.js";
 
-console.log(await getData(1))
-
-
-
-
+   console.log(getData(1))
