@@ -1,5 +1,5 @@
 OUTPUT:
 
 <p align="center">
-  <img width="10" height="10" src="https://www.yazilimturkiye.com/wp-content/uploads/2021/06/yenilogo.jpg](http://url/to/img.png](https://user-images.githubusercontent.com/81915186/230472677-dbec5bf8-cd65-458a-b2d8-d08525bfc7e5.png">
+  <img width="10" height="10" src="![Ekran Görüntüsü (13)](https://user-images.githubusercontent.com/81915186/230473704-c481bb6c-ff22-407f-8266-b8fc967f9387.png)">
 </p>
