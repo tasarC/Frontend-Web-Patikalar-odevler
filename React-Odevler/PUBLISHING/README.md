@@ -1,3 +1,3 @@
 # Publishing 
 
-### [mosterhttpswww.npmjs.compackagemosteractiveTab=readme][1]
+### [mosterhttpswww.npmjs.compackagemosteractiveTab=readme]
