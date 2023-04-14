@@ -1,3 +1,3 @@
 # Publishing 
 
-dzdc zsdv [mosterhttpswww.npmjs.compackagemosteractiveTab=readme]
+()[mosterhttpswww.npmjs.compackagemosteractiveTab=readme]
