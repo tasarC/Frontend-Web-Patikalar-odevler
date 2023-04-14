@@ -1,0 +1,101 @@
+body {
+  min-height: 100vh;
+  place-items: center;
+  background-image: url("../public/indir.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+}
+
+.Card>div {
+  margin: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  background-color: #1e5987b3;
+  color: aliceblue;
+  border: none;
+}
+
+.Card>div:hover {
+  background-color: rgba(184, 100, 237, 0.311);
+}
+
+.Card>div>img {
+  height: 5rem;
+  width: 5rem;
+}
+.custom-select {
+  display: flex;
+  margin: 0 4rem;
+}
+select {
+  background: #183144a8;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Time New Romans';
+  width: 20%;
+  color: white;
+}
+
+select:hover {
+  background:#183144a8;
+  box-shadow: inset 2px 2px 22px 22px #0b0c1252;
+}
+select option{
+  background:black
+}
+.hava{
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(1, 3, 15, 0.881)
+}
+weather-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.footer{
+  text-align: center;
+  background-color: rgba(67, 131, 187, 0.423);
+  height:150px;
+  margin: 0%;
+  padding:0%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.cardImage{
+  width: 50px;
+  
+}
+.cardFooter{
+  height: 50px;
+}
+.header{
+  background-color: rgba(67, 131, 187, 0.423);
+}
+
+
+
+
