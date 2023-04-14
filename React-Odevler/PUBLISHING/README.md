@@ -1,1 +1,2 @@
-# Publishing [mosterhttpswww.npmjs.compackagemosteractiveTab=readme)
+# Publishing 
+[](mosterhttpswww.npmjs.compackagemosteractiveTab=readme)
