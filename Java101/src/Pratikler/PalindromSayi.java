@@ -1,6 +1,6 @@
 package Pratikler;
 
-public class Polidrom_Sayi {
+public class Palindrom_Sayi {
     static String isPalindrom(int number) {
         int temp = number, reverseNumber = 0, lastNumber;
 
