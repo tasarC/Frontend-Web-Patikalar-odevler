@@ -22,7 +22,7 @@
 
 ```
 
-SELECT title, description FROM film;
+# SELECT title, description FROM film;
 
 ```
 
@@ -50,8 +50,7 @@ WHERE length > 60 AND length < 75;
 ```
 
 SELECT * FROM film
-WHERE rental_rate = 0.99 AND replacement_cost = 12.99 
-OR replacement_cost = 28.99;
+WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99;
 
 ```
 
@@ -80,15 +79,11 @@ WHERE first_name = 'Mary';
 ```
 
 SELECT * FROM film
-WHERE length <= 50 
-AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
+WHERE NOT length > 50 AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
 
 ```
 
 <br>
-
-- **Geri Dönmek İçin - <a href="https://github.com/mucahidcanbey/sql_odevler_patika">Tıklayın.</a>**
-
 <br>
 <br>
 
@@ -126,18 +121,18 @@ WHERE first_name IN ('Penelope', 'Nick', 'Ed');
 <br>
 
 3-)film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. ( IN operatörünü kullanınız.)
+
 ```
 
-SELECT first_name, last_name FROM actor 
-WHERE first_name IN ('Penelope', 'Nick', 'Ed');
+SELECT *
+FROM film
+WHERE rental_rate IN (0.99, 2.99, 4.99)
+AND replacement_cost IN (12.99, 15.99, 28.99);
 
 ```
 
 
 <br>
-
-- **Geri Dönmek İçin - <a href="https://github.com/mucahidcanbey/sql_odevler_patika">Tıklayın.</a>**
-
 <br>
 <br>
 
@@ -151,7 +146,8 @@ WHERE first_name IN ('Penelope', 'Nick', 'Ed');
 ```
 
 SELECT country FROM country
-WHERE country ~~ 'A%a' 
+WHERE country_name LIKE 'A%a' OR country_name ILIKE 'A%a';
+ 
 
 ```
 
@@ -164,8 +160,9 @@ WHERE country ~~ 'A%a'
 2-) country tablosunda bulunan country sütunundaki ülke isimlerinden en az 6 karakterden oluşan ve sonu 'n' karakteri ile sonlananları sıralayınız.
 ```
 
-SELECT country FROM country 
-WHERE country LIKE '_____%n' 
+SELECT country FROM country
+WHERE length(country_name) >= 6 AND (country_name LIKE '%n' OR country_name ILIKE '%n');
+
 
 ```
 
@@ -177,8 +174,9 @@ WHERE country LIKE '_____%n'
 3-) film tablosunda bulunan title sütunundaki film isimlerinden en az 4 adet büyük ya da küçük harf farketmesizin 'T' karakteri içeren film isimlerini sıralayınız.
 ```
 
-SELECT title FROM film 
-WHERE title ~~* '%T%T%T%T%' 
+SELECT title FROM film
+WHERE title ILIKE '%T%T%T%T%';
+
 
 ```
 
@@ -247,8 +245,9 @@ WHERE title LIKE 'T%' AND rating = 'G';
 
 ```
 
-SELECT COUNT(DISTINCT country) FROM country 
-where country like '_____';
+SELECT COUNT(*) FROM Country
+WHERE country_name LIKE '_____'; 
+
 
 ```
 
@@ -260,7 +259,7 @@ where country like '_____';
 ```
 
 SELECT COUNT(city) FROM city 
-WHERE city ILIKE 'R%'
+WHERE city ILIKE '%R'
 
 ```
 
