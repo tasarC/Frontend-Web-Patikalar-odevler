@@ -1,13 +1,11 @@
 
  # SQL Eğitim Patika 
 
-> #### Bu repo'da [Patika](https://academy.patika.dev/) SQL eğitiminde yapmış olduğunuz bütün ödevler bulunmaktadır.
-
 <br>
- - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal - <a href="https://github.com/mucahidcanbey/sql_odevler_patika#sql-%C3%B6dev-1--where-ve-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma--mant%C4%B1ksal-operat%C3%B6rler">Tıklayın. </a>**
- - **SQL Ödev 02 | BETWEEN ve IN - <a href="https://github.com/mucahidcanbey/sql_odevler_patika#sql-%C3%B6dev-2--between-ve-in">Tıklayın.</a>**
- - **SQL Ödev 03 |  LIKE ve ILIKE - T<a href="https://github.com/mucahidcanbey/sql_odevler_patika#sql-%C3%B6dev-3--like-ve-ilike">ıklayın.</a>**
- - **SQL Ödev 04 | DISTINCT ve COUNT - <a href="https://github.com/mucahidcanbey/sql_odevler_patika#sql-%C3%B6dev-4--distinct-ve-count">Tıklayın.</a>**
+ - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -**
+ - **SQL Ödev 02 | BETWEEN ve IN -**
+ - **SQL Ödev 03 |  LIKE ve ILIKE - **
+ - **SQL Ödev 04 | DISTINCT ve COUNT -**
 <br>
 
 
