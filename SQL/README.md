@@ -22,7 +22,7 @@
 
 ```
 
-# SELECT title, description FROM film;
+SELECT title, description FROM film;
 
 ```
 
