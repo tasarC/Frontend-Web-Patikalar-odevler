@@ -3,8 +3,11 @@
 
 <br>
  - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -**
+ <br>
  - **SQL Ödev 02 | BETWEEN ve IN -**
+ <br>
  - **SQL Ödev 03 |  LIKE ve ILIKE - **
+ <br>
  - **SQL Ödev 04 | DISTINCT ve COUNT -**
 <br>
 
