@@ -2,8 +2,7 @@
  # SQL Eğitim Patika 
 
 <br>
- - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset"> WHERE ve Karşılaştırma & Mantıksal</a>
- **
+ - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal - **
  <br>
  - **SQL Ödev 02 | BETWEEN ve IN -**
  <br>
@@ -11,7 +10,7 @@
  <br>
  - **SQL Ödev 04 | DISTINCT ve COUNT -**
   <br>
- - **SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET -**
+ - **SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  ORDER BY ve LIMIT/OFFSET </a> **
 <br>
 
 
