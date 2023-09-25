@@ -6,9 +6,9 @@
  <br>
  - **SQL Ödev 02 | BETWEEN ve IN -<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset](https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-02--between-ve-in">  BETWEEN ve IN </a>**
  <br>
- - **SQL Ödev 03 |  LIKE ve ILIKE - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  ORDER BY ve LIMIT/OFFSET </a>**
+ - **SQL Ödev 03 |  LIKE ve ILIKE - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">   LIKE ve ILIKE </a>**
  <br>
- - **SQL Ödev 04 | DISTINCT ve COUNT -<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  LIKE ve ILIKE </a>**
+ - **SQL Ödev 04 | DISTINCT ve COUNT -<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  DISTINCT ve COUNT</a>**
   <br>
  - **SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  ORDER BY ve LIMIT/OFFSET </a> **
 <br>
