@@ -14,7 +14,7 @@
   <br>
  - **SQL Ödev 06 | Aggregate Fonksiyonlar - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-06--aggregate-fonksiyonlar"> Aggregate Fonksiyonlar </a> **
   <br>
- - **SQL Ödev 07 | GROUP BY HAVING - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-06--group-by-having"> GROUP BY HAVING </a> **
+ - **SQL Ödev 07 | GROUP BY HAVING - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-07--group-by-having"> GROUP BY HAVING </a> **
 <br>
 
 
