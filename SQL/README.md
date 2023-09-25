@@ -9,8 +9,10 @@
  - **SQL Ödev 03 |  LIKE ve ILIKE - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-03--like-ve-ilike">   LIKE ve ILIKE </a>**
  <br>
  - **SQL Ödev 04 | DISTINCT ve COUNT -<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-04--distinct-ve-count">  DISTINCT ve COUNT</a>**
-  <br>
+ <br>
  - **SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  ORDER BY ve LIMIT/OFFSET </a> **
+  <br>
+ - **SQL Ödev 06 | Aggregate Fonksiyonlar - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-06--aggregate-fonksiyonlar"> Aggregate Fonksiyonlar </a> **
 <br>
 
 
@@ -321,6 +323,67 @@ FROM customer
 WHERE store_id = 1 
 ORDER BY last_name DSC
 LIMIT 4;
+
+```
+
+<br>
+<br>
+<br>
+
+<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
+## SQL Ödev 06 | Aggregate Fonksiyonlar
+
+<br>
+<br>
+<br>
+
+1-) film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
+
+```
+SELLECT AVG(rental_rate) FROM film;
+
+```
+
+<br>
+<br>
+<br>
+
+2-) film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
+
+```
+SELLECT COUNT(*)
+FROM film
+WHERE film LIKE 'C%'
+;
+
+```
+
+<br>
+<br>
+<br>
+
+3-) film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
+
+```
+SELLECT MAX(length)
+FROM film
+WHERE rental_rate = 0.99;
+;
+
+```
+
+<br>
+<br>
+<br>
+
+4-) film tablosunda bulunan filmlerin uzunluğu 150 dakikadan büyük olanlarına ait kaç farklı replacement_cost değeri vardır?
+
+```
+SELLECT COUNT(DISTINCT replament_cost)
+FROM film
+WHERE length > 150;
+;
 
 ```
 
