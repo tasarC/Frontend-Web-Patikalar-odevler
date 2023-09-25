@@ -2,7 +2,7 @@
  # SQL Eğitim Patika 
 
 <br>
- - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -<a href="[https://www.example.com](https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-01--where-ve-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma--mant%C4%B1ksal-operat%C3%B6rler)"></a>
+ - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset"> WHERE ve Karşılaştırma & Mantıksal</a>
  **
  <br>
  - **SQL Ödev 02 | BETWEEN ve IN -**
