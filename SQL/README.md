@@ -2,7 +2,8 @@
  # SQL Eğitim Patika 
 
 <br>
- - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -**
+ - **SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal -<a href="https://www.example.com">Örnek Bir Bağlantı</a>
+ **
  <br>
  - **SQL Ödev 02 | BETWEEN ve IN -**
  <br>
