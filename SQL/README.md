@@ -90,7 +90,9 @@ WHERE NOT length > 50 AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
 <br>
 <br>
 <br>
+
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
 ## SQL Ödev 02 | BETWEEN ve IN
 
 <br>
@@ -139,7 +141,9 @@ AND replacement_cost IN (12.99, 15.99, 28.99);
 <br>
 <br>
 <br>
+
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
 ## SQL Ödev 03 | LIKE ve ILIKE
 
 <br>
@@ -200,7 +204,9 @@ WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
 <br>
 <br>
 <br>
+
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
 ## SQL Ödev 04 | DISTINCT ve COUNT
 
 <br>
@@ -270,7 +276,9 @@ WHERE city ILIKE '%R'
 <br>
 <br>
 <br>
+
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
 ## SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET
 
 <br>
@@ -319,4 +327,5 @@ LIMIT 4;
 <br>
 <br>
 <br>
+
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
