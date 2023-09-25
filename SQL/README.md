@@ -13,6 +13,8 @@
  - **SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-05--order-by-ve-limitoffset">  ORDER BY ve LIMIT/OFFSET </a> **
   <br>
  - **SQL Ödev 06 | Aggregate Fonksiyonlar - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-06--aggregate-fonksiyonlar"> Aggregate Fonksiyonlar </a> **
+  <br>
+ - **SQL Ödev 07 | GROUP BY HAVING - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-06--group-by-having"> GROUP BY HAVING </a> **
 <br>
 
 
@@ -384,6 +386,65 @@ SELLECT COUNT(DISTINCT replament_cost)
 FROM film
 WHERE length > 150;
 ;
+
+```
+
+<br>
+<br>
+<br>
+
+<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
+## SQL Ödev 07 | GROUP BY HAVING
+
+<br>
+<br>
+<br>
+
+1-) film tablosunda bulunan filmleri rating değerlerine göre gruplayınız.
+
+```
+SELLECT rating FROM film
+GROUP BY rating ;
+
+```
+
+<br>
+<br>
+<br>
+
+2-) film tablosunda bulunan filmleri replacement_cost sütununa göre grupladığımızda film sayısı 50 den fazla olan replacement_cost değerini ve karşılık gelen film sayısını sıralayınız.
+
+```
+SELLECT replacement_cost,COUNT(*) FROM film
+GROUP BY replacement_cost
+HAVING COUNT(*) >50 ;
+
+```
+
+<br>
+<br>
+<br>
+
+3-) customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sayılarını nelerdir? 
+
+```
+SELLECT story_id, COUNT(*) FROM customer
+GROUP BY story_id;
+
+```
+
+<br>
+<br>
+<br>
+
+4-) 4. city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
+
+```
+SELLECT country_id ,COUNT(*) FROM city
+GROUP BY country_id
+ORDER BY COUNT(*) DSC
+LIMIT 1;
 
 ```
 
