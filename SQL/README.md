@@ -271,6 +271,10 @@ WHERE city ILIKE '%R'
 
 ## SQL Ödev 05 | ORDER BY ve LIMIT/OFFSET
 
+<br>
+<br>
+<br>
+
 1-) film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız.
 ```
 SELLECT title, length
