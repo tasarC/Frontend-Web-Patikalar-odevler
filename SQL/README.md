@@ -539,29 +539,29 @@ insert into employee (id, first_name, birthday , email) values (50, 'Alvie', '20
 3-) Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 ```
 
-update employee 
-set name = 'Rana',
+UPDATE employee 
+SET name = 'Rana',
     birthday = '1997-08-09',
     email = 'ranadhs@gmail.com'
-where id =2
+WHERE id =2
 
-update employee
+UPDATE employee
 set name = 'Deniz',
 where first_name = Renato;
 
-update employee
-set email = 'ahmet34@gmail.com'
-where id = 50;
+UPDATE employee
+SET email = 'ahmet34@gmail.com'
+WHERE id = 50;
 
-update employee
-set  birthday = '2002-06-15',
-where birthday = '2023-04-28',
+UPDATE employee
+SET  birthday = '2002-06-15',
+WHERE birthday = '2023-04-28',
 
-update employee
-set name = 'Duru',
+UPDATE employee
+SET name = 'Duru',
     birthday = '1999-11-07',
     email = 'durudfh@gmail.com'
-where id = 36
+WHERE id = 36
 
 ```
 
