@@ -16,7 +16,7 @@
   <br>
  - **SQL Ödev 07 | GROUP BY HAVING - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-07--group-by-having"> GROUP BY HAVING </a> **
   <br>
- - **SQL Ödev 08 | UPDATE and DELETE  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-07--update-and-delete"> UPDATE and DELETE </a> **
+ - **SQL Ödev 08 | UPDATE and DELETE  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-08--update-and-delete"> UPDATE and DELETE </a> **
 <br>
 
 
