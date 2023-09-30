@@ -17,6 +17,8 @@
  - **SQL Ödev 07 | GROUP BY HAVING - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-07--group-by-having"> GROUP BY HAVING </a> **
   <br>
  - **SQL Ödev 08 | UPDATE and DELETE  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-08--update-and-delete"> UPDATE and DELETE </a> **
+   <br>
+ - **SQL Ödev 9 | INNER JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-08--inner-join"> INNER JOIN </a> **
 <br>
 
 
@@ -580,4 +582,43 @@ WHERE first_name IN(Barbette,Jacklyn,Lena,Griffie,Gothart)
 <br>
 <br>
 <br>
+
+<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
+
+## SQL Ödev 09 | INNER JOIN
+
+1-) city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+```
+SELECT city , country FROM city
+INNER JOIN country;
+
+```
+
+<br>
+<br>
+<br>
+
+2-) customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+```
+SELECT first_name, last_name FROM customer
+INNER JOIN payment ON customer.payment_id = payment.payment_id ;
+
+```
+
+<br>
+<br>
+<br>
+
+3-)customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+```
+SELECT first_name, last_name FROM customer
+INNER JOIN rental ON customer.rental_id = rental.rental_id ;
+
+```
+
+<br>
+<br>
+<br>
+
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
