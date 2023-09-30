@@ -19,6 +19,8 @@
  - **SQL Ödev 08 | UPDATE and DELETE  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-08--update-and-delete"> UPDATE and DELETE </a> **
    <br>
  - **SQL Ödev 9 | INNER JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-09--inner-join"> INNER JOIN </a> **
+    <br>
+ - **SQL Ödev 10 | LEFT/RIGHT/FULL JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-09--inner-join"> INNER JOIN </a> **
 <br>
 
 
@@ -591,7 +593,7 @@ WHERE first_name IN(Barbette,Jacklyn,Lena,Griffie,Gothart)
 1-) city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 ```
 SELECT city , country FROM city
-INNER JOIN country;
+INNER JOIN country ON city.country_id = country.country_id;
 
 ```
 
@@ -601,8 +603,8 @@ INNER JOIN country;
 
 2-) customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 ```
-SELECT first_name, last_name FROM customer
-INNER JOIN payment ON customer.payment_id = payment.payment_id ;
+SELECT payment_id, first_name, last_name FROM customer
+INNER JOIN payment ON customer.customer_id = payment.customer_id;
 
 ```
 
@@ -612,8 +614,8 @@ INNER JOIN payment ON customer.payment_id = payment.payment_id ;
 
 3-)customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 ```
-SELECT first_name, last_name FROM customer
-INNER JOIN rental ON customer.rental_id = rental.rental_id ;
+SELECT rental_id, first_name, last_name FROM customer
+INNER JOIN rental ON customer.customer_id = rental.customer_id;
 
 ```
 
@@ -622,3 +624,43 @@ INNER JOIN rental ON customer.rental_id = rental.rental_id ;
 <br>
 
 <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
+## SQL Ödev 10 | LEFT/RIGHT/FULL JOIN 
+
+1-) city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz LEFT JOIN sorgusunu yazınız.
+```
+SELECT city,country
+FROM city
+LEFT JOIN country ON city.country_id = country.country_id;
+
+```
+
+<br>
+<br>
+<br>
+
+2-) customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz RIGHT JOIN sorgusunu yazınız.
+
+```
+SELECT payment_id,first_name, last_name
+FROM customer
+RIGHT JOIN payment ON customer.customer_id = payment.customer_id;
+
+```
+
+<br>
+<br>
+<br>
+
+3-) customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yazınız.
+
+```
+SELECT  rental_id,first_name, last_name
+FROM customer
+FULL JOIN rental ON customer.customer_id = rental.customer_id;
+
+```
+
+<br>
+<br>
+<br>
