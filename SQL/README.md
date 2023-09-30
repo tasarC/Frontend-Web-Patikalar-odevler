@@ -22,7 +22,7 @@
     <br>
  - **SQL Ödev 10 | LEFT/RIGHT/FULL JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-10--leftrightfull-join"> LEFT/RIGHT/FULL JOIN  </a> **
   <br>
- - **SQL Ödev 11 | UNION INTERSECT EXCEPT  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-10--union-intersect-expect"> LEFT/RIGHT/FULL JOIN  </a> **
+ - **SQL Ödev 11 | UNION INTERSECT EXCEPT  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-11--union-intersect-except"> UNION INTERSECT EXCEPT  </a> **
 <br>
 
 
