@@ -18,7 +18,7 @@
   <br>
  - **SQL Ödev 08 | UPDATE and DELETE  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-08--update-and-delete"> UPDATE and DELETE </a> **
    <br>
- - **SQL Ödev 9 | INNER JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-08--inner-join"> INNER JOIN </a> **
+ - **SQL Ödev 9 | INNER JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-09--inner-join"> INNER JOIN </a> **
 <br>
 
 
