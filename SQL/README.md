@@ -24,7 +24,7 @@
   <br>
  - **SQL Ödev 11 | UNION INTERSECT EXCEPT  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-11--union-intersect-except"> UNION INTERSECT EXCEPT  </a> **
  <br>
- - **SQL Ödev 12 | ALT SORGULAR - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-11--union-intersect-except"> ALT SORGULAR </a> **
+ - **SQL Ödev 12 | ALT SORGULAR - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-12---alt-sorgular"> ALT SORGULAR </a> **
 <br>
 
 
