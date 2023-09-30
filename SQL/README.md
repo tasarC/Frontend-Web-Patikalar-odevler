@@ -20,7 +20,7 @@
    <br>
  - **SQL Ödev 9 | INNER JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-09--inner-join"> INNER JOIN </a> **
     <br>
- - **SQL Ödev 10 | LEFT/RIGHT/FULL JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-09--inner-join"> INNER JOIN </a> **
+ - **SQL Ödev 10 | LEFT/RIGHT/FULL JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-10--leftrightfull-join"> LEFT/RIGHT/FULL JOIN  </a> **
 <br>
 
 
