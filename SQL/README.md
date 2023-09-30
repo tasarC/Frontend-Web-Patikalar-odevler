@@ -23,6 +23,8 @@
  - **SQL Ödev 10 | LEFT/RIGHT/FULL JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-10--leftrightfull-join"> LEFT/RIGHT/FULL JOIN  </a> **
   <br>
  - **SQL Ödev 11 | UNION INTERSECT EXCEPT  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-11--union-intersect-except"> UNION INTERSECT EXCEPT  </a> **
+ <br>
+ - **SQL Ödev 12 | ALT SORGULAR - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-11--union-intersect-except"> ALT SORGULAR </a> **
 <br>
 
 
@@ -746,3 +748,62 @@ FROM customer;
 <br>
 <br>
 <br>
+
+<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
+## SQL Ödev 12 |  ALT SORGULAR 
+
+1-) film tablosunda film uzunluğu length sütununda gösterilmektedir. Uzunluğu ortalama film uzunluğundan fazla kaç tane film vardır?
+
+```
+
+SELECT COUNT(*)
+FROM film
+WHERE length > (
+  SELECT AVG(length)
+  FROM film
+); 
+
+```
+
+<br>
+<br>
+<br>
+
+2-) film tablosunda en yüksek rental_rate değerine sahip kaç tane film vardır?
+
+```
+SELECT COUNT(*)
+FROM film
+WHERE rental_rate = (
+  SELECT MAX(rental_rate)
+  FROM film
+);
+```
+
+3-) film tablosunda en düşük rental_rate ve en düşün replacement_cost değerlerine sahip filmleri sıralayınız.
+
+```
+
+SELECT * FROM film
+WHERE rental_rate = (
+  SELECT MIN(rental_rate)
+  FROM film
+)
+AND replacement_cost = (
+  SELECT MIN(replacement_cost)
+  FROM film
+);
+
+```
+4-) payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
+
+```
+SELECT customer_id, COUNT(*) AS count
+FROM payment
+GROUP BY customer_id
+ORDER BY count DESC;
+
+```
+
+<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
