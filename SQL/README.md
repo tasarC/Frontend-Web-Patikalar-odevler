@@ -21,6 +21,8 @@
  - **SQL Ödev 9 | INNER JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-09--inner-join"> INNER JOIN </a> **
     <br>
  - **SQL Ödev 10 | LEFT/RIGHT/FULL JOIN  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-10--leftrightfull-join"> LEFT/RIGHT/FULL JOIN  </a> **
+  <br>
+ - **SQL Ödev 11 | UNION INTERSECT EXCEPT  - <a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-%C3%B6dev-10--union-intersect-expect"> LEFT/RIGHT/FULL JOIN  </a> **
 <br>
 
 
@@ -658,6 +660,86 @@ RIGHT JOIN payment ON customer.customer_id = payment.customer_id;
 SELECT  rental_id,first_name, last_name
 FROM customer
 FULL JOIN rental ON customer.customer_id = rental.customer_id;
+
+```
+
+<br>
+<br>
+<br>
+
+<a href="https://github.com/tasarC/Frontend-Web-Patikalar-odevler/blob/main/SQL/README.md#sql-e%C4%9Fitim-patika">Ana menü</a>
+
+## SQL Ödev 11 | UNION INTERSECT EXCEPT
+
+1-) actor ve customer tablolarında bulunan first_name sütunları için tüm verileri sıralayalım.
+```
+SELECT first_name 
+FROM actor
+UNION 
+SELECT first_name
+FROM customer;
+
+
+```
+
+<br>
+<br>
+<br>
+
+2-) actor ve customer tablolarında bulunan first_name sütunları için kesişen verileri sıralayalım.
+
+```
+SELECT first_name 
+FROM actor
+INTERSECT 
+SELECT first_name
+FROM customer;
+
+
+```
+
+<br>
+<br>
+<br>
+
+3-) actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayalım.
+
+```
+SELECT first_name 
+FROM actor
+EXPECT 
+SELECT first_name
+FROM customer;
+
+
+```
+
+<br>
+<br>
+<br>
+
+4-) İlk 3 sorguyu tekrar eden veriler için de yapalım.
+
+```
+SELECT first_name 
+FROM actor
+UNION  ALL
+SELECT first_name
+FROM customer;
+
+
+SELECT first_name 
+FROM actor
+INTERSECT ALL
+SELECT first_name
+FROM customer;
+
+SELECT first_name 
+FROM actor
+EXPECT ALL
+SELECT first_name
+FROM customer;
+
 
 ```
 
